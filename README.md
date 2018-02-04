@@ -1,6 +1,6 @@
 # tryDjango
 
-cd /Users/jxie/workspace/queryUnderstanding/demo
+cd ~/workspace/queryUnderstanding/demo
 mkdir django-venv
 enable python3:      vi ~/.bash_profile; add alias python3='/export/apps/python/3.6/bin/python3.6?; source ~/.bash_profile
 create envi:              python3 -m venv ./django-venv/
