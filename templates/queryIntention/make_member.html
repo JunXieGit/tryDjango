@@ -1,0 +1,223 @@
+{% extends 'base.html' %}
+
+{% load staticfiles %}
+
+{% block main_body %}
+    <script type="text/javascript" src="{% static 'custom/utils.js' %}?ver2"></script>
+    <script>
+        var memberId_checker_url = "{% url 'queryIntention:memberId_checker' %}";
+        var loading_src = "{% static 'images/loading.gif' %}";
+        var okay_src = "{% static 'images/check_memberId_ok.png' %}";
+        var bad_src = "{% static 'images/check_memberId_bad.png' %}";
+        var delayTime = 500;
+        var want_exist = "nonexist";
+    </script>
+    <form method="POST" action="{% url 'queryIntention:make_member' %}">
+        {% csrf_token %}
+        <h3 class="display-5 pt-2">MemberID</h3>
+        <div class="form-group row pt-2">
+            <label for="id_memberId" class="col-1 col-form-label">MemberID:</label>
+            <div class="col-2 form-inline">
+                <input type="number" name="memberId" required id="id_memberId"
+                       aria-describedby="memberIdHelpBlock"
+                       onkeyup="memberId_delayed_checker(delayTime, memberId_checker_url, loading_src, okay_src, bad_src, want_exist);"
+                       onblur="memberId_checker(memberId_checker_url, loading_src, okay_src, bad_src, want_exist);"/>
+                <img class="ml-1" src="{% static 'images/check_memberId.png' %}"
+                     style="cursor:pointer;width:16px;height:18px"
+                     title="check memberId availability" id="id_memberId_checker">
+                <small id="memberIdHelpBlock" class="form-text text-muted ml-1">
+                    Created memberID must be unique
+                </small>
+            </div>
+        </div>
+        <hr/>
+        <h3 class="display-5 pt-2">Search History</h3>
+        <div class="form-group row pt-2">
+            <label class="col-form-label col-2" for="id_hist_PROFILE_VIEW">Profile View</label>
+            <div class="col-2">
+                <input type="number" step="0.01" id="id_hist_PROFILE_VIEW" name="hist_PROFILE_VIEW" value="0.50"/>
+            </div>
+            <label class="col-form-label col-2" for="id_hist_COMPANY_VIEW">Company View</label>
+            <div class="col-2">
+                <input type="number" step="0.01" id="id_hist_COMPANY_VIEW" name="hist_COMPANY_VIEW" value="0.20"/>
+            </div>
+            <label class="col-form-label col-2" for="id_hist_JOB_VIEW">Job View</label>
+            <div class="col-2">
+                <input type="number" step="0.01" id="id_hist_JOB_VIEW" name="hist_JOB_VIEW" value="0.09"/>
+            </div>
+        </div>
+        <div class="form-group row pt-2">
+            <label class="col-form-label col-2" for="id_hist_GROUP_VIEW">Group View</label>
+            <div class="col-2">
+                <input type="number" step="0.01" id="id_hist_GROUP_VIEW" name="hist_GROUP_VIEW" value="0.09"/>
+            </div>
+            <label class="col-form-label col-2" for="id_hist_SCHOOL_VIEW">School View</label>
+            <div class="col-2">
+                <input type="number" step="0.01" id="id_hist_SCHOOL_VIEW" name="hist_SCHOOL_VIEW" value="0.09"/>
+            </div>
+            <label class="col-form-label col-2" for="id_hist_PEOPLE_SEARCH">People Search</label>
+            <div class="col-2">
+                <input type="number" step="0.01" id="id_hist_PEOPLE_SEARCH" name="hist_PEOPLE_SEARCH" value="0.29"/>
+            </div>
+        </div>
+        <div class="form-group row pt-2">
+            <label class="col-form-label col-2" for="id_hist_JOB_SEARCH">Job Search</label>
+            <div class="col-2">
+                <input type="number" step="0.01" id="id_hist_JOB_SEARCH" name="hist_JOB_SEARCH" value="0.34"/>
+            </div>
+            <label class="col-form-label col-2" for="id_hist_COMPANY_SEARCH">Company Search</label>
+            <div class="col-2">
+                <input type="number" step="0.01" id="id_hist_COMPANY_SEARCH" name="hist_COMPANY_SEARCH" value="0.09"/>
+            </div>
+            <label class="col-form-label col-2" for="id_hist_GROUP_SEARCH">Group Search</label>
+            <div class="col-2">
+                <input type="number" step="0.01" id="id_hist_GROUP_SEARCH" name="hist_GROUP_SEARCH" value="0.07"/>
+            </div>
+        </div>
+        <div class="form-group row pt-2">
+            <label class="col-form-label col-2" for="id_hist_SCHOOL_SEARCH">School Search</label>
+            <div class="col-2">
+                <input type="number" step="0.01" id="id_hist_SCHOOL_SEARCH" name="hist_SCHOOL_SEARCH" value="0.00"/>
+            </div>
+            <label class="col-form-label col-2" for="id_hist_FEDERATED_SEARCH">Federated Search</label>
+            <div class="col-2">
+                <input type="number" step="0.01" id="id_hist_FEDERATED_SEARCH" name="hist_FEDERATED_SEARCH"
+                       value="0.28"/>
+            </div>
+            <label class="col-form-label col-2" for="id_hist_CONTENT_SEARCH">Content Search</label>
+            <div class="col-2">
+                <input type="number" step="0.01" id="id_hist_CONTENT_SEARCH" name="hist_CONTENT_SEARCH" value="0.11"/>
+            </div>
+        </div>
+        <div class="form-group row pt-2">
+            <label class="col-form-label col-2" for="id_hist_PROFILE_INVITE">Profile Invite</label>
+            <div class="col-2">
+                <input type="number" step="0.01" id="id_hist_PROFILE_INVITE" name="hist_PROFILE_INVITE" value="0.00"/>
+            </div>
+            <label class="col-form-label col-2" for="id_hist_PROFILE_MESSAGE">Profile Message</label>
+            <div class="col-2">
+                <input type="number" step="0.01" id="id_hist_PROFILE_MESSAGE" name="hist_PROFILE_MESSAGE" value="0.00"/>
+            </div>
+            <label class="col-form-label col-2" for="id_hist_COMPANY_FOLLOW">Company Follow</label>
+            <div class="col-2">
+                <input type="number" step="0.01" id="id_hist_COMPANY_FOLLOW" name="hist_COMPANY_FOLLOW" value="0.00"/>
+            </div>
+        </div>
+        <div class="form-group row pt-2">
+            <label class="col-form-label col-2" for="id_hist_COMPANY_UNFOLLOW">Company Unfollow</label>
+            <div class="col-2">
+                <input type="number" step="0.01" id="id_hist_COMPANY_UNFOLLOW" name="hist_COMPANY_UNFOLLOW"
+                       value="0.00"/>
+            </div>
+            <label class="col-form-label col-2" for="id_hist_GROUP_JOIN">Group Join</label>
+            <div class="col-2">
+                <input type="number" step="0.01" id="id_hist_GROUP_JOIN" name="hist_GROUP_JOIN" value="0.00"/>
+            </div>
+            <label class="col-form-label col-2" for="id_hist_GROUP_LEAVE">Group Leave</label>
+            <div class="col-2">
+                <input type="number" step="0.01" id="id_hist_GROUP_LEAVE" name="hist_GROUP_LEAVE" value="0.00"/>
+            </div>
+        </div>
+        <div class="form-group row pt-2">
+            <label class="col-form-label col-2" for="id_hist_SCHOOL_FOLLOW">School Follow</label>
+            <div class="col-2">
+                <input type="number" step="0.01" id="id_hist_SCHOOL_FOLLOW" name="hist_SCHOOL_FOLLOW" value="0.00"/>
+            </div>
+            <label class="col-form-label col-2" for="id_hist_SCHOOL_UNFOLLOW">School Unfollow</label>
+            <div class="col-2">
+                <input type="number" step="0.01" id="id_hist_SCHOOL_UNFOLLOW" name="hist_SCHOOL_UNFOLLOW" value="0.00"/>
+            </div>
+            <label class="col-form-label col-2" for="id_hist_TOPIC_SEARCH">Topic Search</label>
+            <div class="col-2">
+                <input type="number" step="0.01" id="id_hist_TOPIC_SEARCH" name="hist_TOPIC_SEARCH" value="0.39"/>
+            </div>
+        </div>
+        <hr/>
+        <h3 class="display-5 pt-2">Foot Print</h3>
+        <div class="form-group row pt-2">
+            <label class="col-form-label col-2" for="id_fp_CareerOpportunityResponse">CareerOpportunityResponse</label>
+            <div class="col-2">
+                <input type="number" step="0.01" id="id_fp_CareerOpportunityResponse"
+                       name="fp_CareerOpportunityResponse" value="0.22"/>
+            </div>
+            <label class="col-form-label col-2" for="id_fp_JobSeekerResponse">JobSeekerResponse</label>
+            <div class="col-2">
+                <input type="number" step="0.01" id="id_fp_JobSeekerResponse" name="fp_JobSeekerResponse" value="0.38"/>
+            </div>
+            <label class="col-form-label col-2" for="id_fp_RecruiterResponse">RecruiterResponse</label>
+            <div class="col-2">
+                <input type="number" step="0.01" id="id_fp_RecruiterResponse" name="fp_RecruiterResponse" value="0.35"/>
+            </div>
+        </div>
+        <div class="form-group row pt-2">
+            <label class="col-form-label col-2" for="id_fp_SalesPersonResponse">SalesPersonResponse</label>
+            <div class="col-2">
+                <input type="number" step="0.01" id="id_fp_SalesPersonResponse" name="fp_SalesPersonResponse"
+                       value="0.34"/>
+            </div>
+            <label class="col-form-label col-2" for="id_fp_OthersResponse">OthersResponse</label>
+            <div class="col-2">
+                <input type="number" step="0.01" id="id_fp_OthersResponse" name="fp_OthersResponse" value="0.44"/>
+            </div>
+            <label class="col-form-label col-2" for="id_fp_education">education</label>
+            <div class="col-2">
+                <input type="number" step="0.01" id="id_fp_education" name="fp_education" value="0.78"/>
+            </div>
+        </div>
+        <div class="form-group row pt-2">
+            <label class="col-form-label col-2" for="id_fp_entrepreneurship">entrepreneurship</label>
+            <div class="col-2">
+                <input type="number" step="0.01" id="id_fp_entrepreneurship" name="fp_entrepreneurship" value="0.73"/>
+            </div>
+            <label class="col-form-label col-2" for="id_fp_finance">finance</label>
+            <div class="col-2">
+                <input type="number" step="0.01" id="id_fp_finance" name="fp_finance" value="0.70"/>
+            </div>
+            <label class="col-form-label col-2" for="id_fp_retail">retail</label>
+            <div class="col-2">
+                <input type="number" step="0.01" id="id_fp_retail" name="fp_retail" value="0.69"/>
+            </div>
+        </div>
+        <div class="form-group row pt-2">
+            <label class="col-form-label col-2" for="id_fp_technology">technology</label>
+            <div class="col-2">
+                <input type="number" step="0.01" id="id_fp_technology" name="fp_technology" value="0.72"/>
+            </div>
+            <label class="col-form-label col-2" for="id_fp_BusinessTraveler">BusinessTraveler</label>
+            <div class="col-2">
+                <input type="number" step="0.01" id="id_fp_BusinessTraveler" name="fp_BusinessTraveler" value="0.30"/>
+            </div>
+            <label class="col-form-label col-2" for="id_fp_ItCommittee">ItCommittee</label>
+            <div class="col-2">
+                <input type="number" step="0.01" id="id_fp_ItCommittee" name="fp_ItCommittee" value="0.44"/>
+            </div>
+        </div>
+        <div class="form-group row pt-2">
+            <label class="col-form-label col-2" for="id_fp_MassAffluent">MassAffluent</label>
+            <div class="col-2">
+                <input type="number" step="0.01" id="id_fp_MassAffluent" name="fp_MassAffluent" value="0.43"/>
+            </div>
+            <label class="col-form-label col-2" for="id_fp_AmexCreditCard">AmexCreditCard</label>
+            <div class="col-2">
+                <input type="number" step="0.01" id="id_fp_AmexCreditCard" name="fp_AmexCreditCard" value="0.31"/>
+            </div>
+            <label class="col-form-label col-2" for="id_fp_JobSeekerIntent">JobSeekerIntent</label>
+            <div class="col-2">
+                <input type="number" step="0.01" id="id_fp_JobSeekerIntent" name="fp_JobSeekerIntent" value="0.14"/>
+            </div>
+        </div>
+        <div class="form-group row pt-2">
+            <label class="col-form-label col-2" for="id_fp_RecruitingIntent">RecruitingIntent</label>
+            <div class="col-2">
+                <input type="number" step="0.01" id="id_fp_RecruitingIntent" name="fp_RecruitingIntent" value="0.01"/>
+            </div>
+        </div>
+
+        <hr/>
+        <div class="form-group row">
+            <div class="col-2 col-form-label">
+                <button type="submit" class="btn btn-primary" id="id_submit_button" disabled>Create</button>
+            </div>
+        </div>
+    </form>
+{% endblock %}

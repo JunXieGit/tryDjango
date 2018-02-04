@@ -1,0 +1,2629 @@
+{
+  "models": [
+    {
+      "coefficients": [
+        {
+          "name": "hist_PEOPLE_SEARCH",
+          "term": "",
+          "value": 5.781498226898478
+        },
+        {
+          "name": "hist_PROFILE_VIEW",
+          "term": "",
+          "value": 2.74701117044775
+        },
+        {
+          "name": "hasFirst_name",
+          "term": "",
+          "value": 1.7770804548281574
+        },
+        {
+          "name": "hist_GROUP_VIEW",
+          "term": "",
+          "value": 1.616844329202546
+        },
+        {
+          "name": "fp_RecruitingIntent",
+          "term": "",
+          "value": 1.5444713379496406
+        },
+        {
+          "name": "hasSkill",
+          "term": "",
+          "value": 1.510491701044008
+        },
+        {
+          "name": "hasLast_name",
+          "term": "",
+          "value": 1.5094777766636238
+        },
+        {
+          "name": "sg_07",
+          "term": "",
+          "value": 1.4948329924579786
+        },
+        {
+          "name": "os_03",
+          "term": "",
+          "value": 1.3875422688202632
+        },
+        {
+          "name": "fp_OthersResponse",
+          "term": "",
+          "value": 1.318561297614279
+        },
+        {
+          "name": "sg_08",
+          "term": "",
+          "value": 1.2006271984253831
+        },
+        {
+          "name": "hist_SCHOOL_VIEW",
+          "term": "",
+          "value": 1.033322557510896
+        },
+        {
+          "name": "fp_SalesPersonResponse",
+          "term": "",
+          "value": 1.0184356106332169
+        },
+        {
+          "name": "hist_GROUP_SEARCH",
+          "term": "",
+          "value": 1.0063640678353363
+        },
+        {
+          "name": "hist_CONTENT_SEARCH",
+          "term": "",
+          "value": 0.7953527009294185
+        },
+        {
+          "name": "fp_CareerOpportunityResponse",
+          "term": "",
+          "value": 0.5933208725576232
+        },
+        {
+          "name": "sg_06",
+          "term": "",
+          "value": 0.5613163259997918
+        },
+        {
+          "name": "sg_09",
+          "term": "",
+          "value": 0.4758390847827052
+        },
+        {
+          "name": "hist_COMPANY_VIEW",
+          "term": "",
+          "value": 0.44109103042076425
+        },
+        {
+          "name": "hasGeo",
+          "term": "",
+          "value": 0.426067685075831
+        },
+        {
+          "name": "hasCompany_name",
+          "term": "",
+          "value": 0.3809373213840901
+        },
+        {
+          "name": "fp_technology",
+          "term": "",
+          "value": 0.3502669489239233
+        },
+        {
+          "name": "sg_05",
+          "term": "",
+          "value": 0.2455992549309652
+        },
+        {
+          "name": "sg_01",
+          "term": "",
+          "value": 0.22831347285210724
+        },
+        {
+          "name": "fp_finance",
+          "term": "",
+          "value": 0.22493644564273885
+        },
+        {
+          "name": "ch_02",
+          "term": "",
+          "value": 0.21405140228437958
+        },
+        {
+          "name": "sg_04",
+          "term": "",
+          "value": 0.18647841347996363
+        },
+        {
+          "name": "os_01",
+          "term": "",
+          "value": 0.18352674353170445
+        },
+        {
+          "name": "fp_MassAffluent",
+          "term": "",
+          "value": 0.1276508830721278
+        },
+        {
+          "name": "keyWordsCnt",
+          "term": "",
+          "value": 0.08042615968355897
+        },
+        {
+          "name": "fp_entrepreneurship",
+          "term": "",
+          "value": 0.03892451646887853
+        },
+        {
+          "name": "loc_00",
+          "term": "",
+          "value": 0.03049202480050155
+        },
+        {
+          "name": "loc_01",
+          "term": "",
+          "value": 0.03049202480050155
+        },
+        {
+          "name": "hist_SCHOOL_SEARCH",
+          "term": "",
+          "value": 0.0
+        },
+        {
+          "name": "hist_SCHOOL_UNFOLLOW",
+          "term": "",
+          "value": 0.0
+        },
+        {
+          "name": "hist_PROFILE_MESSAGE",
+          "term": "",
+          "value": 0.0
+        },
+        {
+          "name": "hist_GROUP_LEAVE",
+          "term": "",
+          "value": 0.0
+        },
+        {
+          "name": "hist_GROUP_JOIN",
+          "term": "",
+          "value": 0.0
+        },
+        {
+          "name": "hist_SCHOOL_FOLLOW",
+          "term": "",
+          "value": 0.0
+        },
+        {
+          "name": "hist_COMPANY_UNFOLLOW",
+          "term": "",
+          "value": 0.0
+        },
+        {
+          "name": "hist_PROFILE_INVITE",
+          "term": "",
+          "value": 0.0
+        },
+        {
+          "name": "hist_COMPANY_FOLLOW",
+          "term": "",
+          "value": 0.0
+        },
+        {
+          "name": "hist_TOPIC_SEARCH",
+          "term": "",
+          "value": -0.01955892323207249
+        },
+        {
+          "name": "sg_03",
+          "term": "",
+          "value": -0.02308486876194298
+        },
+        {
+          "name": "dt_03",
+          "term": "",
+          "value": -0.03010339984653393
+        },
+        {
+          "name": "fp_ItCommittee",
+          "term": "",
+          "value": -0.03432370459449005
+        },
+        {
+          "name": "dt_04",
+          "term": "",
+          "value": -0.03441452433533178
+        },
+        {
+          "name": "dt_02",
+          "term": "",
+          "value": -0.06310327853922798
+        },
+        {
+          "name": "dt_05",
+          "term": "",
+          "value": -0.06876176152831794
+        },
+        {
+          "name": "dt_06",
+          "term": "",
+          "value": -0.08016587459337589
+        },
+        {
+          "name": "isNav",
+          "term": "",
+          "value": -0.09617312549944741
+        },
+        {
+          "name": "dt_00",
+          "term": "",
+          "value": -0.13207031687943172
+        },
+        {
+          "name": "dt_01",
+          "term": "",
+          "value": -0.13536830038846068
+        },
+        {
+          "name": "fp_JobSeekerResponse",
+          "term": "",
+          "value": -0.18201674493303918
+        },
+        {
+          "name": "fp_BusinessTraveler",
+          "term": "",
+          "value": -0.20798326288389918
+        },
+        {
+          "name": "hist_COMPANY_SEARCH",
+          "term": "",
+          "value": -0.23611133510564836
+        },
+        {
+          "name": "sg_02",
+          "term": "",
+          "value": -0.30140172958959716
+        },
+        {
+          "name": "hasSchool_name",
+          "term": "",
+          "value": -0.3034157662400001
+        },
+        {
+          "name": "fp_AmexCreditCard",
+          "term": "",
+          "value": -0.3461039422482163
+        },
+        {
+          "name": "ch_01",
+          "term": "",
+          "value": -0.36067675402255633
+        },
+        {
+          "name": "ch_00",
+          "term": "",
+          "value": -0.397362104372528
+        },
+        {
+          "name": "(INTERCEPT)",
+          "term": "",
+          "value": -0.5439874561106744
+        },
+        {
+          "name": "loc_02",
+          "term": "",
+          "value": -0.5439874561106744
+        },
+        {
+          "name": "os_00",
+          "term": "",
+          "value": -0.8612211537014511
+        },
+        {
+          "name": "fp_JobSeekerIntent",
+          "term": "",
+          "value": -0.8763190313257982
+        },
+        {
+          "name": "hist_FEDERATED_SEARCH",
+          "term": "",
+          "value": -0.9054366096574636
+        },
+        {
+          "name": "hasTitle",
+          "term": "",
+          "value": -1.1047111878337135
+        },
+        {
+          "name": "os_02",
+          "term": "",
+          "value": -1.2538353147611911
+        },
+        {
+          "name": "fp_RecruiterResponse",
+          "term": "",
+          "value": -1.3967698558047794
+        },
+        {
+          "name": "hasJob",
+          "term": "",
+          "value": -1.8051593511380517
+        },
+        {
+          "name": "hasPost",
+          "term": "",
+          "value": -1.824399415284295
+        },
+        {
+          "name": "sg_00",
+          "term": "",
+          "value": -4.6125076006879935
+        },
+        {
+          "name": "hist_JOB_SEARCH",
+          "term": "",
+          "value": -5.657974398249547
+        },
+        {
+          "name": "hist_JOB_VIEW",
+          "term": "",
+          "value": -8.051516106722437
+        }
+      ],
+      "intention": "PEOPLE"
+    },
+    {
+      "coefficients": [
+        {
+          "name": "fp_RecruitingIntent",
+          "term": "",
+          "value": 2.3204293013940056
+        },
+        {
+          "name": "dt_03",
+          "term": "",
+          "value": 2.044723823176617
+        },
+        {
+          "name": "fp_MassAffluent",
+          "term": "",
+          "value": 1.6836062418396853
+        },
+        {
+          "name": "fp_JobSeekerIntent",
+          "term": "",
+          "value": 1.4272001462642079
+        },
+        {
+          "name": "fp_SalesPersonResponse",
+          "term": "",
+          "value": 1.0967111295455692
+        },
+        {
+          "name": "fp_RecruiterResponse",
+          "term": "",
+          "value": 0.6764961054807733
+        },
+        {
+          "name": "fp_BusinessTraveler",
+          "term": "",
+          "value": 0.6213810587153941
+        },
+        {
+          "name": "hist_COMPANY_SEARCH",
+          "term": "",
+          "value": 0.6128534753952367
+        },
+        {
+          "name": "hist_CONTENT_SEARCH",
+          "term": "",
+          "value": 0.5034817522518862
+        },
+        {
+          "name": "fp_OthersResponse",
+          "term": "",
+          "value": 0.30625549894351767
+        },
+        {
+          "name": "hist_SCHOOL_VIEW",
+          "term": "",
+          "value": 0.1480248812178121
+        },
+        {
+          "name": "hist_TOPIC_SEARCH",
+          "term": "",
+          "value": 0.07717118745206335
+        },
+        {
+          "name": "sg_07",
+          "term": "",
+          "value": 0.07145951318319801
+        },
+        {
+          "name": "hist_GROUP_SEARCH",
+          "term": "",
+          "value": 0.013011236306605969
+        },
+        {
+          "name": "hist_SCHOOL_SEARCH",
+          "term": "",
+          "value": 0.0
+        },
+        {
+          "name": "hist_SCHOOL_UNFOLLOW",
+          "term": "",
+          "value": 0.0
+        },
+        {
+          "name": "os_02",
+          "term": "",
+          "value": 0.0
+        },
+        {
+          "name": "hist_PROFILE_MESSAGE",
+          "term": "",
+          "value": 0.0
+        },
+        {
+          "name": "hasPost",
+          "term": "",
+          "value": 0.0
+        },
+        {
+          "name": "ch_01",
+          "term": "",
+          "value": 0.0
+        },
+        {
+          "name": "os_00",
+          "term": "",
+          "value": 0.0
+        },
+        {
+          "name": "hist_GROUP_LEAVE",
+          "term": "",
+          "value": 0.0
+        },
+        {
+          "name": "sg_09",
+          "term": "",
+          "value": 0.0
+        },
+        {
+          "name": "hist_GROUP_JOIN",
+          "term": "",
+          "value": 0.0
+        },
+        {
+          "name": "hist_SCHOOL_FOLLOW",
+          "term": "",
+          "value": 0.0
+        },
+        {
+          "name": "hist_COMPANY_UNFOLLOW",
+          "term": "",
+          "value": 0.0
+        },
+        {
+          "name": "ch_02",
+          "term": "",
+          "value": 0.0
+        },
+        {
+          "name": "hist_PROFILE_INVITE",
+          "term": "",
+          "value": 0.0
+        },
+        {
+          "name": "hist_COMPANY_FOLLOW",
+          "term": "",
+          "value": 0.0
+        },
+        {
+          "name": "sg_00",
+          "term": "",
+          "value": -0.0011761535229133837
+        },
+        {
+          "name": "os_01",
+          "term": "",
+          "value": -0.0021501525715397593
+        },
+        {
+          "name": "hasJob",
+          "term": "",
+          "value": -0.003926219237623524
+        },
+        {
+          "name": "sg_08",
+          "term": "",
+          "value": -0.006339045129659036
+        },
+        {
+          "name": "sg_03",
+          "term": "",
+          "value": -0.011871513865442794
+        },
+        {
+          "name": "hasSchool_name",
+          "term": "",
+          "value": -0.013437938074415276
+        },
+        {
+          "name": "sg_02",
+          "term": "",
+          "value": -0.024178449793408104
+        },
+        {
+          "name": "sg_06",
+          "term": "",
+          "value": -0.030565034120865392
+        },
+        {
+          "name": "sg_01",
+          "term": "",
+          "value": -0.03881467023685954
+        },
+        {
+          "name": "hasFirst_name",
+          "term": "",
+          "value": -0.050686184102302294
+        },
+        {
+          "name": "hist_GROUP_VIEW",
+          "term": "",
+          "value": -0.05119145440813331
+        },
+        {
+          "name": "hist_JOB_VIEW",
+          "term": "",
+          "value": -0.06032726348269384
+        },
+        {
+          "name": "hasLast_name",
+          "term": "",
+          "value": -0.06299312003026766
+        },
+        {
+          "name": "isNav",
+          "term": "",
+          "value": -0.07486463389571045
+        },
+        {
+          "name": "fp_finance",
+          "term": "",
+          "value": -0.16710444639089658
+        },
+        {
+          "name": "hasGeo",
+          "term": "",
+          "value": -0.17399535812085604
+        },
+        {
+          "name": "fp_entrepreneurship",
+          "term": "",
+          "value": -0.17878388342708476
+        },
+        {
+          "name": "sg_05",
+          "term": "",
+          "value": -0.19438967514326447
+        },
+        {
+          "name": "hasTitle",
+          "term": "",
+          "value": -0.23406968124091285
+        },
+        {
+          "name": "dt_06",
+          "term": "",
+          "value": -0.24455003820884802
+        },
+        {
+          "name": "fp_JobSeekerResponse",
+          "term": "",
+          "value": -0.25062391393547023
+        },
+        {
+          "name": "fp_technology",
+          "term": "",
+          "value": -0.25996563201147677
+        },
+        {
+          "name": "hasCompany_name",
+          "term": "",
+          "value": -0.27808727460612914
+        },
+        {
+          "name": "hist_FEDERATED_SEARCH",
+          "term": "",
+          "value": -0.29540304655131755
+        },
+        {
+          "name": "hist_PEOPLE_SEARCH",
+          "term": "",
+          "value": -0.307200384051592
+        },
+        {
+          "name": "dt_00",
+          "term": "",
+          "value": -0.37701785780040525
+        },
+        {
+          "name": "hist_COMPANY_VIEW",
+          "term": "",
+          "value": -0.4205164544995524
+        },
+        {
+          "name": "hist_PROFILE_VIEW",
+          "term": "",
+          "value": -0.4300634008900104
+        },
+        {
+          "name": "dt_05",
+          "term": "",
+          "value": -0.4309744746888969
+        },
+        {
+          "name": "dt_02",
+          "term": "",
+          "value": -0.6070070256650371
+        },
+        {
+          "name": "dt_04",
+          "term": "",
+          "value": -0.6101100529794579
+        },
+        {
+          "name": "sg_04",
+          "term": "",
+          "value": -0.6152492331071148
+        },
+        {
+          "name": "dt_01",
+          "term": "",
+          "value": -0.6261886355703031
+        },
+        {
+          "name": "hasSkill",
+          "term": "",
+          "value": -0.626602453592925
+        },
+        {
+          "name": "hist_JOB_SEARCH",
+          "term": "",
+          "value": -0.6409647904766349
+        },
+        {
+          "name": "fp_AmexCreditCard",
+          "term": "",
+          "value": -0.6811537274772246
+        },
+        {
+          "name": "os_03",
+          "term": "",
+          "value": -0.8489741091647915
+        },
+        {
+          "name": "(INTERCEPT)",
+          "term": "",
+          "value": -0.8511242617363307
+        },
+        {
+          "name": "loc_00",
+          "term": "",
+          "value": -0.8511242617363307
+        },
+        {
+          "name": "loc_02",
+          "term": "",
+          "value": -0.8511242617363307
+        },
+        {
+          "name": "loc_01",
+          "term": "",
+          "value": -0.8511242617363307
+        },
+        {
+          "name": "ch_00",
+          "term": "",
+          "value": -0.8511242617363307
+        },
+        {
+          "name": "fp_CareerOpportunityResponse",
+          "term": "",
+          "value": -1.3548866835357025
+        },
+        {
+          "name": "fp_ItCommittee",
+          "term": "",
+          "value": -1.7554587897319125
+        },
+        {
+          "name": "keyWordsCnt",
+          "term": "",
+          "value": -3.4173686099047567
+        }
+      ],
+      "intention": "PROVIDERS"
+    },
+    {
+      "coefficients": [
+        {
+          "name": "hist_COMPANY_SEARCH",
+          "term": "",
+          "value": 18.543469725740874
+        },
+        {
+          "name": "sg_00",
+          "term": "",
+          "value": 5.398045996414896
+        },
+        {
+          "name": "hist_SCHOOL_VIEW",
+          "term": "",
+          "value": 1.7640182020057165
+        },
+        {
+          "name": "hist_COMPANY_VIEW",
+          "term": "",
+          "value": 1.1902168991113753
+        },
+        {
+          "name": "fp_JobSeekerResponse",
+          "term": "",
+          "value": 1.1393828916784006
+        },
+        {
+          "name": "fp_SalesPersonResponse",
+          "term": "",
+          "value": 0.727669934825032
+        },
+        {
+          "name": "fp_technology",
+          "term": "",
+          "value": 0.5693211014510658
+        },
+        {
+          "name": "fp_entrepreneurship",
+          "term": "",
+          "value": 0.2784593193098326
+        },
+        {
+          "name": "hasCompany_name",
+          "term": "",
+          "value": 0.15249983941174391
+        },
+        {
+          "name": "hist_JOB_VIEW",
+          "term": "",
+          "value": 0.1456875489278119
+        },
+        {
+          "name": "fp_OthersResponse",
+          "term": "",
+          "value": 0.11971365718031385
+        },
+        {
+          "name": "hist_JOB_SEARCH",
+          "term": "",
+          "value": 0.1123834660248069
+        },
+        {
+          "name": "fp_finance",
+          "term": "",
+          "value": 0.09904007324950989
+        },
+        {
+          "name": "fp_AmexCreditCard",
+          "term": "",
+          "value": 0.05818614526792364
+        },
+        {
+          "name": "keyWordsCnt",
+          "term": "",
+          "value": 0.02956579347860043
+        },
+        {
+          "name": "sg_02",
+          "term": "",
+          "value": 0.02164359698846454
+        },
+        {
+          "name": "fp_BusinessTraveler",
+          "term": "",
+          "value": 0.010251880371407288
+        },
+        {
+          "name": "hist_SCHOOL_SEARCH",
+          "term": "",
+          "value": 0.0
+        },
+        {
+          "name": "hist_SCHOOL_UNFOLLOW",
+          "term": "",
+          "value": 0.0
+        },
+        {
+          "name": "hist_PROFILE_MESSAGE",
+          "term": "",
+          "value": 0.0
+        },
+        {
+          "name": "hist_GROUP_LEAVE",
+          "term": "",
+          "value": 0.0
+        },
+        {
+          "name": "hist_GROUP_JOIN",
+          "term": "",
+          "value": 0.0
+        },
+        {
+          "name": "hist_SCHOOL_FOLLOW",
+          "term": "",
+          "value": 0.0
+        },
+        {
+          "name": "hist_COMPANY_UNFOLLOW",
+          "term": "",
+          "value": 0.0
+        },
+        {
+          "name": "hist_PROFILE_INVITE",
+          "term": "",
+          "value": 0.0
+        },
+        {
+          "name": "hist_COMPANY_FOLLOW",
+          "term": "",
+          "value": 0.0
+        },
+        {
+          "name": "hasGeo",
+          "term": "",
+          "value": -0.029682073162267817
+        },
+        {
+          "name": "fp_MassAffluent",
+          "term": "",
+          "value": -0.07456010290636039
+        },
+        {
+          "name": "os_01",
+          "term": "",
+          "value": -0.08927664838706585
+        },
+        {
+          "name": "hasLast_name",
+          "term": "",
+          "value": -0.11607608974126399
+        },
+        {
+          "name": "fp_JobSeekerIntent",
+          "term": "",
+          "value": -0.14164048989058858
+        },
+        {
+          "name": "loc_00",
+          "term": "",
+          "value": -0.14523138606050465
+        },
+        {
+          "name": "loc_01",
+          "term": "",
+          "value": -0.14523138606050465
+        },
+        {
+          "name": "fp_ItCommittee",
+          "term": "",
+          "value": -0.1597522607448682
+        },
+        {
+          "name": "hasFirst_name",
+          "term": "",
+          "value": -0.1986529124157044
+        },
+        {
+          "name": "sg_05",
+          "term": "",
+          "value": -0.23495978843342422
+        },
+        {
+          "name": "sg_03",
+          "term": "",
+          "value": -0.23982945847465548
+        },
+        {
+          "name": "dt_04",
+          "term": "",
+          "value": -0.2741274686984359
+        },
+        {
+          "name": "dt_05",
+          "term": "",
+          "value": -0.27693576366756023
+        },
+        {
+          "name": "dt_01",
+          "term": "",
+          "value": -0.29013428888082504
+        },
+        {
+          "name": "dt_00",
+          "term": "",
+          "value": -0.29776523797576365
+        },
+        {
+          "name": "dt_03",
+          "term": "",
+          "value": -0.3006622537685491
+        },
+        {
+          "name": "dt_02",
+          "term": "",
+          "value": -0.30159688431761106
+        },
+        {
+          "name": "fp_CareerOpportunityResponse",
+          "term": "",
+          "value": -0.30453850873254384
+        },
+        {
+          "name": "fp_RecruitingIntent",
+          "term": "",
+          "value": -0.319206783439398
+        },
+        {
+          "name": "dt_06",
+          "term": "",
+          "value": -0.34986854726417366
+        },
+        {
+          "name": "ch_02",
+          "term": "",
+          "value": -0.38990421786144847
+        },
+        {
+          "name": "os_03",
+          "term": "",
+          "value": -0.42928463633767716
+        },
+        {
+          "name": "os_02",
+          "term": "",
+          "value": -0.5824040257972911
+        },
+        {
+          "name": "sg_08",
+          "term": "",
+          "value": -0.6338604315077693
+        },
+        {
+          "name": "hasSchool_name",
+          "term": "",
+          "value": -0.6529269823022524
+        },
+        {
+          "name": "ch_00",
+          "term": "",
+          "value": -0.7189324489890402
+        },
+        {
+          "name": "hasTitle",
+          "term": "",
+          "value": -0.8330883146659055
+        },
+        {
+          "name": "sg_07",
+          "term": "",
+          "value": -0.9161087306468353
+        },
+        {
+          "name": "ch_01",
+          "term": "",
+          "value": -0.9822537777224324
+        },
+        {
+          "name": "os_00",
+          "term": "",
+          "value": -0.9901251340508596
+        },
+        {
+          "name": "hasSkill",
+          "term": "",
+          "value": -1.0163583015965898
+        },
+        {
+          "name": "sg_04",
+          "term": "",
+          "value": -1.1344551957878686
+        },
+        {
+          "name": "hist_PROFILE_VIEW",
+          "term": "",
+          "value": -1.21690686726999
+        },
+        {
+          "name": "hist_TOPIC_SEARCH",
+          "term": "",
+          "value": -1.2410428049510192
+        },
+        {
+          "name": "hist_FEDERATED_SEARCH",
+          "term": "",
+          "value": -1.247981542164015
+        },
+        {
+          "name": "sg_06",
+          "term": "",
+          "value": -1.3004520188119768
+        },
+        {
+          "name": "hist_GROUP_VIEW",
+          "term": "",
+          "value": -1.3321126574331041
+        },
+        {
+          "name": "hasJob",
+          "term": "",
+          "value": -1.4422630702131773
+        },
+        {
+          "name": "sg_01",
+          "term": "",
+          "value": -1.486948515213206
+        },
+        {
+          "name": "hist_PEOPLE_SEARCH",
+          "term": "",
+          "value": -1.5518831246040365
+        },
+        {
+          "name": "sg_09",
+          "term": "",
+          "value": -1.5641658991005176
+        },
+        {
+          "name": "fp_RecruiterResponse",
+          "term": "",
+          "value": -1.7035913853559275
+        },
+        {
+          "name": "isNav",
+          "term": "",
+          "value": -1.7051343766993716
+        },
+        {
+          "name": "(INTERCEPT)",
+          "term": "",
+          "value": -2.091090444572868
+        },
+        {
+          "name": "loc_02",
+          "term": "",
+          "value": -2.091090444572868
+        },
+        {
+          "name": "hasPost",
+          "term": "",
+          "value": -4.814946565792934
+        },
+        {
+          "name": "hist_GROUP_SEARCH",
+          "term": "",
+          "value": -8.021324953555387
+        },
+        {
+          "name": "hist_CONTENT_SEARCH",
+          "term": "",
+          "value": -8.167049794866559
+        }
+      ],
+      "intention": "COMPANY"
+    },
+    {
+      "coefficients": [
+        {
+          "name": "hist_CONTENT_SEARCH",
+          "term": "",
+          "value": 23.31295811968609
+        },
+        {
+          "name": "hasPost",
+          "term": "",
+          "value": 6.9036404369182245
+        },
+        {
+          "name": "sg_00",
+          "term": "",
+          "value": 5.640353821498942
+        },
+        {
+          "name": "hist_TOPIC_SEARCH",
+          "term": "",
+          "value": 3.0363902267461103
+        },
+        {
+          "name": "fp_RecruiterResponse",
+          "term": "",
+          "value": 2.985140589606764
+        },
+        {
+          "name": "loc_00",
+          "term": "",
+          "value": 1.6854347832440097
+        },
+        {
+          "name": "loc_01",
+          "term": "",
+          "value": 1.6854347832440097
+        },
+        {
+          "name": "hist_JOB_VIEW",
+          "term": "",
+          "value": 1.1814729404410949
+        },
+        {
+          "name": "hist_FEDERATED_SEARCH",
+          "term": "",
+          "value": 1.1188413625452294
+        },
+        {
+          "name": "hasJob",
+          "term": "",
+          "value": 0.6973202906846718
+        },
+        {
+          "name": "fp_JobSeekerIntent",
+          "term": "",
+          "value": 0.4769402051879944
+        },
+        {
+          "name": "fp_BusinessTraveler",
+          "term": "",
+          "value": 0.391045912373837
+        },
+        {
+          "name": "fp_CareerOpportunityResponse",
+          "term": "",
+          "value": 0.27200877114599553
+        },
+        {
+          "name": "hasGeo",
+          "term": "",
+          "value": 0.18424034556555274
+        },
+        {
+          "name": "fp_MassAffluent",
+          "term": "",
+          "value": 0.10363409685229846
+        },
+        {
+          "name": "keyWordsCnt",
+          "term": "",
+          "value": 0.05109539410045036
+        },
+        {
+          "name": "fp_ItCommittee",
+          "term": "",
+          "value": 0.00044667236612595026
+        },
+        {
+          "name": "hist_SCHOOL_SEARCH",
+          "term": "",
+          "value": 0.0
+        },
+        {
+          "name": "hist_SCHOOL_UNFOLLOW",
+          "term": "",
+          "value": 0.0
+        },
+        {
+          "name": "hist_PROFILE_MESSAGE",
+          "term": "",
+          "value": 0.0
+        },
+        {
+          "name": "hist_GROUP_LEAVE",
+          "term": "",
+          "value": 0.0
+        },
+        {
+          "name": "hist_GROUP_JOIN",
+          "term": "",
+          "value": 0.0
+        },
+        {
+          "name": "hist_SCHOOL_FOLLOW",
+          "term": "",
+          "value": 0.0
+        },
+        {
+          "name": "hist_COMPANY_UNFOLLOW",
+          "term": "",
+          "value": 0.0
+        },
+        {
+          "name": "hist_PROFILE_INVITE",
+          "term": "",
+          "value": 0.0
+        },
+        {
+          "name": "hist_COMPANY_FOLLOW",
+          "term": "",
+          "value": 0.0
+        },
+        {
+          "name": "hist_PROFILE_VIEW",
+          "term": "",
+          "value": -0.02140563626763924
+        },
+        {
+          "name": "hasTitle",
+          "term": "",
+          "value": -0.04782668121849137
+        },
+        {
+          "name": "sg_05",
+          "term": "",
+          "value": -0.1255798395445985
+        },
+        {
+          "name": "sg_02",
+          "term": "",
+          "value": -0.1446303427637256
+        },
+        {
+          "name": "hasLast_name",
+          "term": "",
+          "value": -0.20057556678447777
+        },
+        {
+          "name": "os_01",
+          "term": "",
+          "value": -0.24796621550021272
+        },
+        {
+          "name": "fp_AmexCreditCard",
+          "term": "",
+          "value": -0.26015457059038866
+        },
+        {
+          "name": "fp_RecruitingIntent",
+          "term": "",
+          "value": -0.2851647848571016
+        },
+        {
+          "name": "sg_03",
+          "term": "",
+          "value": -0.3514311360821172
+        },
+        {
+          "name": "fp_finance",
+          "term": "",
+          "value": -0.42665937299143375
+        },
+        {
+          "name": "dt_06",
+          "term": "",
+          "value": -0.440133355887435
+        },
+        {
+          "name": "dt_05",
+          "term": "",
+          "value": -0.4750042240042173
+        },
+        {
+          "name": "dt_04",
+          "term": "",
+          "value": -0.4828648752765961
+        },
+        {
+          "name": "dt_03",
+          "term": "",
+          "value": -0.48532458253357424
+        },
+        {
+          "name": "hasSkill",
+          "term": "",
+          "value": -0.49471228910218956
+        },
+        {
+          "name": "dt_01",
+          "term": "",
+          "value": -0.49641270649314023
+        },
+        {
+          "name": "dt_02",
+          "term": "",
+          "value": -0.49739077307354884
+        },
+        {
+          "name": "hasFirst_name",
+          "term": "",
+          "value": -0.5160997616072601
+        },
+        {
+          "name": "ch_01",
+          "term": "",
+          "value": -0.5728167151133202
+        },
+        {
+          "name": "dt_00",
+          "term": "",
+          "value": -0.5740824179406485
+        },
+        {
+          "name": "fp_JobSeekerResponse",
+          "term": "",
+          "value": -0.5784286958542579
+        },
+        {
+          "name": "fp_entrepreneurship",
+          "term": "",
+          "value": -0.6159800555502125
+        },
+        {
+          "name": "sg_04",
+          "term": "",
+          "value": -0.6447139009757663
+        },
+        {
+          "name": "fp_OthersResponse",
+          "term": "",
+          "value": -0.6538025028810037
+        },
+        {
+          "name": "os_03",
+          "term": "",
+          "value": -0.6795743399815187
+        },
+        {
+          "name": "fp_SalesPersonResponse",
+          "term": "",
+          "value": -0.7405283464244168
+        },
+        {
+          "name": "ch_02",
+          "term": "",
+          "value": -0.9192161979185416
+        },
+        {
+          "name": "sg_07",
+          "term": "",
+          "value": -0.9673414871270699
+        },
+        {
+          "name": "os_00",
+          "term": "",
+          "value": -1.035072108934994
+        },
+        {
+          "name": "fp_technology",
+          "term": "",
+          "value": -1.059200092432433
+        },
+        {
+          "name": "hasCompany_name",
+          "term": "",
+          "value": -1.134948710814301
+        },
+        {
+          "name": "sg_09",
+          "term": "",
+          "value": -1.316562544485081
+        },
+        {
+          "name": "os_02",
+          "term": "",
+          "value": -1.488600270792562
+        },
+        {
+          "name": "sg_06",
+          "term": "",
+          "value": -1.5957178023937688
+        },
+        {
+          "name": "sg_08",
+          "term": "",
+          "value": -1.885583489350009
+        },
+        {
+          "name": "hasSchool_name",
+          "term": "",
+          "value": -1.9083495907915902
+        },
+        {
+          "name": "ch_00",
+          "term": "",
+          "value": -1.9591800221772084
+        },
+        {
+          "name": "sg_01",
+          "term": "",
+          "value": -2.060006213986076
+        },
+        {
+          "name": "hist_PEOPLE_SEARCH",
+          "term": "",
+          "value": -2.183403699505158
+        },
+        {
+          "name": "isNav",
+          "term": "",
+          "value": -2.5560676928315673
+        },
+        {
+          "name": "hist_JOB_SEARCH",
+          "term": "",
+          "value": -2.5593608471856766
+        },
+        {
+          "name": "hist_GROUP_SEARCH",
+          "term": "",
+          "value": -2.9356645139982853
+        },
+        {
+          "name": "hist_COMPANY_VIEW",
+          "term": "",
+          "value": -3.1939842238404657
+        },
+        {
+          "name": "hist_SCHOOL_VIEW",
+          "term": "",
+          "value": -3.3842514777909405
+        },
+        {
+          "name": "(INTERCEPT)",
+          "term": "",
+          "value": -3.4512129352089986
+        },
+        {
+          "name": "loc_02",
+          "term": "",
+          "value": -3.4512129352089986
+        },
+        {
+          "name": "hist_GROUP_VIEW",
+          "term": "",
+          "value": -3.7138303264419825
+        },
+        {
+          "name": "hist_COMPANY_SEARCH",
+          "term": "",
+          "value": -13.229608166761405
+        }
+      ],
+      "intention": "POSTS"
+    },
+    {
+      "coefficients": [
+        {
+          "name": "hist_SCHOOL_VIEW",
+          "term": "",
+          "value": 11.37548538892055
+        },
+        {
+          "name": "sg_00",
+          "term": "",
+          "value": 3.691621139049893
+        },
+        {
+          "name": "hist_PEOPLE_SEARCH",
+          "term": "",
+          "value": 0.894342568249945
+        },
+        {
+          "name": "fp_AmexCreditCard",
+          "term": "",
+          "value": 0.8100007520727989
+        },
+        {
+          "name": "fp_OthersResponse",
+          "term": "",
+          "value": 0.6461166104023053
+        },
+        {
+          "name": "hist_FEDERATED_SEARCH",
+          "term": "",
+          "value": 0.5801770709532972
+        },
+        {
+          "name": "hasSchool_name",
+          "term": "",
+          "value": 0.5359742248712795
+        },
+        {
+          "name": "fp_RecruiterResponse",
+          "term": "",
+          "value": 0.47089194378100796
+        },
+        {
+          "name": "hist_GROUP_SEARCH",
+          "term": "",
+          "value": 0.32359889434869743
+        },
+        {
+          "name": "ch_02",
+          "term": "",
+          "value": 0.23210106494942806
+        },
+        {
+          "name": "fp_CareerOpportunityResponse",
+          "term": "",
+          "value": 0.017057620732312137
+        },
+        {
+          "name": "keyWordsCnt",
+          "term": "",
+          "value": 0.004557465641503437
+        },
+        {
+          "name": "hist_SCHOOL_SEARCH",
+          "term": "",
+          "value": 0.0
+        },
+        {
+          "name": "hist_SCHOOL_UNFOLLOW",
+          "term": "",
+          "value": 0.0
+        },
+        {
+          "name": "hist_PROFILE_MESSAGE",
+          "term": "",
+          "value": 0.0
+        },
+        {
+          "name": "hist_GROUP_LEAVE",
+          "term": "",
+          "value": 0.0
+        },
+        {
+          "name": "hist_GROUP_JOIN",
+          "term": "",
+          "value": 0.0
+        },
+        {
+          "name": "hist_SCHOOL_FOLLOW",
+          "term": "",
+          "value": 0.0
+        },
+        {
+          "name": "hist_COMPANY_UNFOLLOW",
+          "term": "",
+          "value": 0.0
+        },
+        {
+          "name": "hist_PROFILE_INVITE",
+          "term": "",
+          "value": 0.0
+        },
+        {
+          "name": "hist_COMPANY_FOLLOW",
+          "term": "",
+          "value": 0.0
+        },
+        {
+          "name": "os_01",
+          "term": "",
+          "value": -0.005223878872946351
+        },
+        {
+          "name": "dt_06",
+          "term": "",
+          "value": -0.04086438095138583
+        },
+        {
+          "name": "hist_JOB_SEARCH",
+          "term": "",
+          "value": -0.060684288740125436
+        },
+        {
+          "name": "fp_JobSeekerIntent",
+          "term": "",
+          "value": -0.0819197116458252
+        },
+        {
+          "name": "fp_SalesPersonResponse",
+          "term": "",
+          "value": -0.09689412057959323
+        },
+        {
+          "name": "hist_TOPIC_SEARCH",
+          "term": "",
+          "value": -0.09968433107913204
+        },
+        {
+          "name": "sg_05",
+          "term": "",
+          "value": -0.11437105104407065
+        },
+        {
+          "name": "dt_00",
+          "term": "",
+          "value": -0.14190848194167244
+        },
+        {
+          "name": "sg_03",
+          "term": "",
+          "value": -0.15771892121031245
+        },
+        {
+          "name": "fp_finance",
+          "term": "",
+          "value": -0.16127294438634684
+        },
+        {
+          "name": "hist_JOB_VIEW",
+          "term": "",
+          "value": -0.22369811512357202
+        },
+        {
+          "name": "fp_MassAffluent",
+          "term": "",
+          "value": -0.25248079884629543
+        },
+        {
+          "name": "dt_05",
+          "term": "",
+          "value": -0.27496604565061133
+        },
+        {
+          "name": "hasGeo",
+          "term": "",
+          "value": -0.28508809620274356
+        },
+        {
+          "name": "dt_03",
+          "term": "",
+          "value": -0.28570939430456704
+        },
+        {
+          "name": "sg_02",
+          "term": "",
+          "value": -0.30322060310443155
+        },
+        {
+          "name": "dt_01",
+          "term": "",
+          "value": -0.32337416101099653
+        },
+        {
+          "name": "hasSkill",
+          "term": "",
+          "value": -0.33169511659647616
+        },
+        {
+          "name": "dt_04",
+          "term": "",
+          "value": -0.33400665722059225
+        },
+        {
+          "name": "dt_02",
+          "term": "",
+          "value": -0.35363953267746734
+        },
+        {
+          "name": "sg_08",
+          "term": "",
+          "value": -0.38555886236871634
+        },
+        {
+          "name": "fp_entrepreneurship",
+          "term": "",
+          "value": -0.3945815036275298
+        },
+        {
+          "name": "os_03",
+          "term": "",
+          "value": -0.39882103567784855
+        },
+        {
+          "name": "fp_technology",
+          "term": "",
+          "value": -0.4335250306509874
+        },
+        {
+          "name": "fp_ItCommittee",
+          "term": "",
+          "value": -0.4399617145948618
+        },
+        {
+          "name": "loc_00",
+          "term": "",
+          "value": -0.44315509747736986
+        },
+        {
+          "name": "loc_01",
+          "term": "",
+          "value": -0.44315509747736986
+        },
+        {
+          "name": "sg_04",
+          "term": "",
+          "value": -0.48577922076506846
+        },
+        {
+          "name": "hist_PROFILE_VIEW",
+          "term": "",
+          "value": -0.5059428114703421
+        },
+        {
+          "name": "hasFirst_name",
+          "term": "",
+          "value": -0.6104179761174123
+        },
+        {
+          "name": "hasTitle",
+          "term": "",
+          "value": -0.614836890095619
+        },
+        {
+          "name": "sg_07",
+          "term": "",
+          "value": -0.646373228892022
+        },
+        {
+          "name": "os_02",
+          "term": "",
+          "value": -0.6660363951090749
+        },
+        {
+          "name": "ch_01",
+          "term": "",
+          "value": -0.6753717617510486
+        },
+        {
+          "name": "os_00",
+          "term": "",
+          "value": -0.684387344097404
+        },
+        {
+          "name": "fp_JobSeekerResponse",
+          "term": "",
+          "value": -0.7343424901884997
+        },
+        {
+          "name": "sg_06",
+          "term": "",
+          "value": -0.8056780585260447
+        },
+        {
+          "name": "sg_01",
+          "term": "",
+          "value": -0.8337629894359246
+        },
+        {
+          "name": "hasCompany_name",
+          "term": "",
+          "value": -0.8507941024555976
+        },
+        {
+          "name": "hasJob",
+          "term": "",
+          "value": -0.8630120232757789
+        },
+        {
+          "name": "fp_RecruitingIntent",
+          "term": "",
+          "value": -0.9768124540018707
+        },
+        {
+          "name": "hasLast_name",
+          "term": "",
+          "value": -0.9855287563922668
+        },
+        {
+          "name": "hist_GROUP_VIEW",
+          "term": "",
+          "value": -1.0359073649167223
+        },
+        {
+          "name": "isNav",
+          "term": "",
+          "value": -1.294702513750658
+        },
+        {
+          "name": "ch_00",
+          "term": "",
+          "value": -1.311197956955649
+        },
+        {
+          "name": "fp_BusinessTraveler",
+          "term": "",
+          "value": -1.4022819722500413
+        },
+        {
+          "name": "sg_09",
+          "term": "",
+          "value": -1.7136268574606102
+        },
+        {
+          "name": "(INTERCEPT)",
+          "term": "",
+          "value": -1.7544686537573144
+        },
+        {
+          "name": "loc_02",
+          "term": "",
+          "value": -1.7544686537573144
+        },
+        {
+          "name": "hasPost",
+          "term": "",
+          "value": -2.12971115772112
+        },
+        {
+          "name": "hist_CONTENT_SEARCH",
+          "term": "",
+          "value": -3.288038350637966
+        },
+        {
+          "name": "hist_COMPANY_VIEW",
+          "term": "",
+          "value": -3.810583917744573
+        },
+        {
+          "name": "hist_COMPANY_SEARCH",
+          "term": "",
+          "value": -5.628411215539231
+        }
+      ],
+      "intention": "SCHOOL"
+    },
+    {
+      "coefficients": [
+        {
+          "name": "hist_GROUP_SEARCH",
+          "term": "",
+          "value": 24.675790331767075
+        },
+        {
+          "name": "hist_GROUP_VIEW",
+          "term": "",
+          "value": 7.227432636306592
+        },
+        {
+          "name": "sg_00",
+          "term": "",
+          "value": 4.534383734062742
+        },
+        {
+          "name": "fp_RecruiterResponse",
+          "term": "",
+          "value": 2.145720028397987
+        },
+        {
+          "name": "hist_FEDERATED_SEARCH",
+          "term": "",
+          "value": 0.7167191213402923
+        },
+        {
+          "name": "hasJob",
+          "term": "",
+          "value": 0.669726743487618
+        },
+        {
+          "name": "fp_AmexCreditCard",
+          "term": "",
+          "value": 0.2869007792090604
+        },
+        {
+          "name": "ch_00",
+          "term": "",
+          "value": 0.27704315926174594
+        },
+        {
+          "name": "fp_ItCommittee",
+          "term": "",
+          "value": 0.2564943349361999
+        },
+        {
+          "name": "fp_JobSeekerIntent",
+          "term": "",
+          "value": 0.18692388427538761
+        },
+        {
+          "name": "fp_BusinessTraveler",
+          "term": "",
+          "value": 0.14041961852540885
+        },
+        {
+          "name": "hasTitle",
+          "term": "",
+          "value": 0.038809526738934494
+        },
+        {
+          "name": "loc_00",
+          "term": "",
+          "value": 0.036217744325496876
+        },
+        {
+          "name": "loc_01",
+          "term": "",
+          "value": 0.036217744325496876
+        },
+        {
+          "name": "sg_05",
+          "term": "",
+          "value": 0.010661457489110984
+        },
+        {
+          "name": "hist_SCHOOL_SEARCH",
+          "term": "",
+          "value": 0.0
+        },
+        {
+          "name": "hist_SCHOOL_UNFOLLOW",
+          "term": "",
+          "value": 0.0
+        },
+        {
+          "name": "hist_PROFILE_MESSAGE",
+          "term": "",
+          "value": 0.0
+        },
+        {
+          "name": "hist_GROUP_LEAVE",
+          "term": "",
+          "value": 0.0
+        },
+        {
+          "name": "hist_GROUP_JOIN",
+          "term": "",
+          "value": 0.0
+        },
+        {
+          "name": "hist_SCHOOL_FOLLOW",
+          "term": "",
+          "value": 0.0
+        },
+        {
+          "name": "hist_COMPANY_UNFOLLOW",
+          "term": "",
+          "value": 0.0
+        },
+        {
+          "name": "hist_PROFILE_INVITE",
+          "term": "",
+          "value": 0.0
+        },
+        {
+          "name": "hist_COMPANY_FOLLOW",
+          "term": "",
+          "value": 0.0
+        },
+        {
+          "name": "keyWordsCnt",
+          "term": "",
+          "value": -0.006576247639943875
+        },
+        {
+          "name": "fp_MassAffluent",
+          "term": "",
+          "value": -0.10373995979285511
+        },
+        {
+          "name": "sg_02",
+          "term": "",
+          "value": -0.12496830102777633
+        },
+        {
+          "name": "sg_03",
+          "term": "",
+          "value": -0.1482759356686347
+        },
+        {
+          "name": "hasSkill",
+          "term": "",
+          "value": -0.16481452802441132
+        },
+        {
+          "name": "dt_06",
+          "term": "",
+          "value": -0.21307274565449894
+        },
+        {
+          "name": "os_02",
+          "term": "",
+          "value": -0.23594429284472354
+        },
+        {
+          "name": "hist_PROFILE_VIEW",
+          "term": "",
+          "value": -0.275715251367938
+        },
+        {
+          "name": "fp_OthersResponse",
+          "term": "",
+          "value": -0.3092534627627679
+        },
+        {
+          "name": "dt_00",
+          "term": "",
+          "value": -0.3146787069543177
+        },
+        {
+          "name": "dt_04",
+          "term": "",
+          "value": -0.32313212641449446
+        },
+        {
+          "name": "hist_PEOPLE_SEARCH",
+          "term": "",
+          "value": -0.33586159467821824
+        },
+        {
+          "name": "fp_CareerOpportunityResponse",
+          "term": "",
+          "value": -0.3371900664293714
+        },
+        {
+          "name": "dt_02",
+          "term": "",
+          "value": -0.3378851594421137
+        },
+        {
+          "name": "dt_03",
+          "term": "",
+          "value": -0.3379496985492126
+        },
+        {
+          "name": "os_00",
+          "term": "",
+          "value": -0.34509633615687235
+        },
+        {
+          "name": "dt_05",
+          "term": "",
+          "value": -0.3483522295254947
+        },
+        {
+          "name": "fp_SalesPersonResponse",
+          "term": "",
+          "value": -0.3691157841714326
+        },
+        {
+          "name": "dt_01",
+          "term": "",
+          "value": -0.3889384653840406
+        },
+        {
+          "name": "fp_entrepreneurship",
+          "term": "",
+          "value": -0.41134036244265854
+        },
+        {
+          "name": "os_01",
+          "term": "",
+          "value": -0.41349932126214506
+        },
+        {
+          "name": "hasGeo",
+          "term": "",
+          "value": -0.4314939013685625
+        },
+        {
+          "name": "fp_finance",
+          "term": "",
+          "value": -0.43784298814470135
+        },
+        {
+          "name": "hasSchool_name",
+          "term": "",
+          "value": -0.5919289229586473
+        },
+        {
+          "name": "hasCompany_name",
+          "term": "",
+          "value": -0.592056278030546
+        },
+        {
+          "name": "hasFirst_name",
+          "term": "",
+          "value": -0.6077393095470983
+        },
+        {
+          "name": "fp_JobSeekerResponse",
+          "term": "",
+          "value": -0.6394212692614071
+        },
+        {
+          "name": "fp_RecruitingIntent",
+          "term": "",
+          "value": -0.7132245310827788
+        },
+        {
+          "name": "sg_08",
+          "term": "",
+          "value": -0.7136840936763694
+        },
+        {
+          "name": "hasLast_name",
+          "term": "",
+          "value": -0.7976862078730187
+        },
+        {
+          "name": "hist_TOPIC_SEARCH",
+          "term": "",
+          "value": -0.9085700053151006
+        },
+        {
+          "name": "sg_07",
+          "term": "",
+          "value": -0.9527899753644133
+        },
+        {
+          "name": "fp_technology",
+          "term": "",
+          "value": -0.9577348336868196
+        },
+        {
+          "name": "ch_01",
+          "term": "",
+          "value": -0.9647646246967372
+        },
+        {
+          "name": "hist_JOB_SEARCH",
+          "term": "",
+          "value": -1.040496281075129
+        },
+        {
+          "name": "sg_01",
+          "term": "",
+          "value": -1.0516865024792734
+        },
+        {
+          "name": "sg_04",
+          "term": "",
+          "value": -1.0735663556595196
+        },
+        {
+          "name": "hist_COMPANY_VIEW",
+          "term": "",
+          "value": -1.0982771788127896
+        },
+        {
+          "name": "os_03",
+          "term": "",
+          "value": -1.2694691816603894
+        },
+        {
+          "name": "sg_06",
+          "term": "",
+          "value": -1.2855552728826516
+        },
+        {
+          "name": "isNav",
+          "term": "",
+          "value": -1.32493073917568
+        },
+        {
+          "name": "sg_09",
+          "term": "",
+          "value": -1.4585278867172964
+        },
+        {
+          "name": "ch_02",
+          "term": "",
+          "value": -1.5762876664891112
+        },
+        {
+          "name": "hist_JOB_VIEW",
+          "term": "",
+          "value": -2.12188340809921
+        },
+        {
+          "name": "(INTERCEPT)",
+          "term": "",
+          "value": -2.2640091319241002
+        },
+        {
+          "name": "loc_02",
+          "term": "",
+          "value": -2.2640091319241002
+        },
+        {
+          "name": "hist_SCHOOL_VIEW",
+          "term": "",
+          "value": -2.857442663236606
+        },
+        {
+          "name": "hasPost",
+          "term": "",
+          "value": -3.582747220744499
+        },
+        {
+          "name": "hist_CONTENT_SEARCH",
+          "term": "",
+          "value": -11.070386642304815
+        },
+        {
+          "name": "hist_COMPANY_SEARCH",
+          "term": "",
+          "value": -13.587474063749193
+        }
+      ],
+      "intention": "GROUP"
+    },
+    {
+      "coefficients": [
+        {
+          "name": "hist_JOB_VIEW",
+          "term": "",
+          "value": 9.514649459010123
+        },
+        {
+          "name": "hist_JOB_SEARCH",
+          "term": "",
+          "value": 6.370282438843963
+        },
+        {
+          "name": "hasJob",
+          "term": "",
+          "value": 1.8880896256795519
+        },
+        {
+          "name": "hasTitle",
+          "term": "",
+          "value": 1.8790560936174732
+        },
+        {
+          "name": "fp_RecruiterResponse",
+          "term": "",
+          "value": 1.7396148386018957
+        },
+        {
+          "name": "sg_09",
+          "term": "",
+          "value": 1.4452577192574558
+        },
+        {
+          "name": "hist_FEDERATED_SEARCH",
+          "term": "",
+          "value": 1.2396321127581829
+        },
+        {
+          "name": "os_02",
+          "term": "",
+          "value": 1.1641968730196748
+        },
+        {
+          "name": "fp_JobSeekerIntent",
+          "term": "",
+          "value": 1.152999853520406
+        },
+        {
+          "name": "os_00",
+          "term": "",
+          "value": 0.9850454194052874
+        },
+        {
+          "name": "hasSchool_name",
+          "term": "",
+          "value": 0.8453031079845051
+        },
+        {
+          "name": "sg_02",
+          "term": "",
+          "value": 0.6575685591376388
+        },
+        {
+          "name": "hasCompany_name",
+          "term": "",
+          "value": 0.6367137753946193
+        },
+        {
+          "name": "sg_05",
+          "term": "",
+          "value": 0.43785012288787056
+        },
+        {
+          "name": "hasLast_name",
+          "term": "",
+          "value": 0.39051125778394097
+        },
+        {
+          "name": "ch_00",
+          "term": "",
+          "value": 0.3500391858566832
+        },
+        {
+          "name": "hist_TOPIC_SEARCH",
+          "term": "",
+          "value": 0.34857842564657243
+        },
+        {
+          "name": "sg_03",
+          "term": "",
+          "value": 0.347212223678823
+        },
+        {
+          "name": "sg_06",
+          "term": "",
+          "value": 0.34238729468630197
+        },
+        {
+          "name": "fp_AmexCreditCard",
+          "term": "",
+          "value": 0.30978302076777003
+        },
+        {
+          "name": "sg_08",
+          "term": "",
+          "value": 0.29967467844294315
+        },
+        {
+          "name": "sg_04",
+          "term": "",
+          "value": 0.2890999911573812
+        },
+        {
+          "name": "fp_BusinessTraveler",
+          "term": "",
+          "value": 0.25104863470807254
+        },
+        {
+          "name": "ch_01",
+          "term": "",
+          "value": 0.18852725106596616
+        },
+        {
+          "name": "hasFirst_name",
+          "term": "",
+          "value": 0.16034155908682995
+        },
+        {
+          "name": "dt_01",
+          "term": "",
+          "value": 0.07645985224782904
+        },
+        {
+          "name": "fp_JobSeekerResponse",
+          "term": "",
+          "value": 0.07592594178807194
+        },
+        {
+          "name": "dt_00",
+          "term": "",
+          "value": 0.0717340112097214
+        },
+        {
+          "name": "(INTERCEPT)",
+          "term": "",
+          "value": 0.03882583006986558
+        },
+        {
+          "name": "loc_02",
+          "term": "",
+          "value": 0.03882583006986558
+        },
+        {
+          "name": "dt_06",
+          "term": "",
+          "value": 0.02254521038786223
+        },
+        {
+          "name": "dt_05",
+          "term": "",
+          "value": 0.0023735399279072684
+        },
+        {
+          "name": "hist_SCHOOL_SEARCH",
+          "term": "",
+          "value": 0.0
+        },
+        {
+          "name": "hist_SCHOOL_UNFOLLOW",
+          "term": "",
+          "value": 0.0
+        },
+        {
+          "name": "hist_PROFILE_MESSAGE",
+          "term": "",
+          "value": 0.0
+        },
+        {
+          "name": "hist_GROUP_LEAVE",
+          "term": "",
+          "value": 0.0
+        },
+        {
+          "name": "hist_GROUP_JOIN",
+          "term": "",
+          "value": 0.0
+        },
+        {
+          "name": "hist_SCHOOL_FOLLOW",
+          "term": "",
+          "value": 0.0
+        },
+        {
+          "name": "hist_COMPANY_UNFOLLOW",
+          "term": "",
+          "value": 0.0
+        },
+        {
+          "name": "hist_PROFILE_INVITE",
+          "term": "",
+          "value": 0.0
+        },
+        {
+          "name": "hist_COMPANY_FOLLOW",
+          "term": "",
+          "value": 0.0
+        },
+        {
+          "name": "fp_ItCommittee",
+          "term": "",
+          "value": -0.0019916653397837893
+        },
+        {
+          "name": "hasSkill",
+          "term": "",
+          "value": -0.006131671420703675
+        },
+        {
+          "name": "dt_02",
+          "term": "",
+          "value": -0.023136951270783097
+        },
+        {
+          "name": "loc_00",
+          "term": "",
+          "value": -0.030079903589528494
+        },
+        {
+          "name": "loc_01",
+          "term": "",
+          "value": -0.030079903589528494
+        },
+        {
+          "name": "dt_04",
+          "term": "",
+          "value": -0.04924356323471189
+        },
+        {
+          "name": "dt_03",
+          "term": "",
+          "value": -0.061906269197961335
+        },
+        {
+          "name": "fp_MassAffluent",
+          "term": "",
+          "value": -0.11170588961649025
+        },
+        {
+          "name": "sg_07",
+          "term": "",
+          "value": -0.15120654516176293
+        },
+        {
+          "name": "hist_COMPANY_VIEW",
+          "term": "",
+          "value": -0.1703151759424895
+        },
+        {
+          "name": "hasGeo",
+          "term": "",
+          "value": -0.17388896938017998
+        },
+        {
+          "name": "fp_entrepreneurship",
+          "term": "",
+          "value": -0.2181035840904897
+        },
+        {
+          "name": "fp_finance",
+          "term": "",
+          "value": -0.28900074999515324
+        },
+        {
+          "name": "os_01",
+          "term": "",
+          "value": -0.33289525648691803
+        },
+        {
+          "name": "keyWordsCnt",
+          "term": "",
+          "value": -0.44331721807974056
+        },
+        {
+          "name": "fp_CareerOpportunityResponse",
+          "term": "",
+          "value": -0.48780607346020544
+        },
+        {
+          "name": "ch_02",
+          "term": "",
+          "value": -0.4997406068523583
+        },
+        {
+          "name": "isNav",
+          "term": "",
+          "value": -0.5088083844539333
+        },
+        {
+          "name": "fp_technology",
+          "term": "",
+          "value": -0.5889404130516593
+        },
+        {
+          "name": "fp_SalesPersonResponse",
+          "term": "",
+          "value": -1.1302973515586994
+        },
+        {
+          "name": "fp_RecruitingIntent",
+          "term": "",
+          "value": -1.3784842740004253
+        },
+        {
+          "name": "sg_01",
+          "term": "",
+          "value": -1.5135891672703914
+        },
+        {
+          "name": "hist_SCHOOL_VIEW",
+          "term": "",
+          "value": -1.5227773590420057
+        },
+        {
+          "name": "hasPost",
+          "term": "",
+          "value": -1.5959157413163916
+        },
+        {
+          "name": "hist_PROFILE_VIEW",
+          "term": "",
+          "value": -1.5962792553413325
+        },
+        {
+          "name": "fp_OthersResponse",
+          "term": "",
+          "value": -1.6286354345895144
+        },
+        {
+          "name": "os_03",
+          "term": "",
+          "value": -1.7775212058678034
+        },
+        {
+          "name": "hist_CONTENT_SEARCH",
+          "term": "",
+          "value": -1.9125727880029257
+        },
+        {
+          "name": "hist_GROUP_VIEW",
+          "term": "",
+          "value": -2.1058532148141906
+        },
+        {
+          "name": "sg_00",
+          "term": "",
+          "value": -2.115429046746338
+        },
+        {
+          "name": "hist_GROUP_SEARCH",
+          "term": "",
+          "value": -2.1921602415401797
+        },
+        {
+          "name": "hist_COMPANY_SEARCH",
+          "term": "",
+          "value": -2.692876036828603
+        },
+        {
+          "name": "hist_PEOPLE_SEARCH",
+          "term": "",
+          "value": -5.411644441393128
+        }
+      ],
+      "intention": "JOB"
+    }
+  ]
+}

@@ -1,0 +1,139 @@
+{% extends 'base.html' %}
+
+{% load staticfiles %}
+
+{% block main_body %}
+    <script type="text/javascript" src="{% static 'custom/utils.js' %}?ver2"></script>
+    <script>
+        var memberId_checker_url = "{% url 'queryIntention:memberId_checker' %}";
+        var loading_src = "{% static 'images/loading.gif' %}";
+        var okay_src = "{% static 'images/check_memberId_ok.png' %}";
+        var bad_src = "{% static 'images/check_memberId_bad.png' %}";
+        var delayTime = 500;
+        var want_exist = 'exist';
+    </script>
+    {% if graphs %}
+        <h3 class="display-5 pt-2">Set Query</h3>
+        <form class="form-inline" role="form" method="post" id="set_context"
+              action="{% url 'queryIntention:query_intention_demo' %}">
+            {% csrf_token %}
+            <div class="form-group pt-2 col-auto">
+                <label for="id_memberId">ID:</label>
+                <input type="number" class="form-control ml-2" id="id_memberId" value="{{ form.memberId.value }}"
+                       name="memberId" aria-describedby="memberIdHelpBlock" required autofocus
+                       onkeyup="memberId_delayed_checker(delayTime, memberId_checker_url, loading_src, okay_src, bad_src, want_exist);"
+                       onblur="memberId_checker(memberId_checker_url, loading_src, okay_src, bad_src, want_exist);">
+                <img class="ml-1" src="{% static 'images/check_memberId.png' %}"
+                     style="width:16px;height:18px"
+                     title="check memberId availability" id="id_memberId_checker"/>
+                <small id="memberIdHelpBlock" class="form-text text-muted ml-1">
+                    Correct memberID is required<br/>Or, <a href="{% url 'queryIntention:make_member' %}">create a
+                    member profile</a>
+                </small>
+            </div>
+            <div class="form-group pt-2 col-auto">
+                <label for="id_raw_query">Query:</label>
+                <input type="text" class="form-control ml-2" id="id_raw_query" value="{{ form.raw_query.value }}"
+                       name="raw_query" required/>
+            </div>
+            {#            <div class="form-group pt-2 col-auto">#}
+            {#                {{ form.os }}#}
+            {#            </div>#}
+            {#            <div class="form-group pt-2 col-auto">#}
+            {#                {{ form.channel }}#}
+            {#            </div>#}
+            {#            <div class="form-group pt-2 col-auto">#}
+            {#                {{ form.language }}#}
+            {#            </div>#}
+            {#            <div class="form-group pt-2 col-auto">#}
+            {#                {{ form.country }}#}
+            {#            </div>#}
+            <div class="form-group pt-2 col-auto">
+                {{ form.origin }}
+            </div>
+            <div class="form-group pt-2 col-auto">
+                <button type="submit" class="btn btn-primary" id="id_submit_button" disabled>Submit</button>
+            </div>
+        </form>
+        <hr/>
+        <h3 class="display-5 pt-2">Intention Result</h3>
+        <div class="row pt-2">
+            <div class="col-6">
+                {{ intention_scores_graph | safe }}
+            </div>
+            <div class="col-6">
+                {{ intention_logits_graph | safe }}
+            </div>
+        </div>
+        <hr/>
+        <h3 class="display-5 pt-2">Break Down - Search History</h3>
+        <div class="row pt-2">
+            <div class="col-6">
+                {{ search_history_graph | safe }}
+            </div>
+            <div class="col-6">
+                {{ sh_detail_graph | safe }}
+            </div>
+        </div>
+        <h3 class="display-5 pt-2">Break Down - FootPrint & QueryTagger</h3>
+        <div class="row pt-2">
+            <div class="col-6">
+                {{ fp_detail_graph | safe }}
+            </div>
+            <div class="col-6">
+                {{ tagger_detail_graph | safe }}
+            </div>
+        </div>
+        <h3 class="display-5 pt-2">Break Down - Other Context</h3>
+        <div class="row pt-2">
+            <div class="col-6">
+                {{ query_context_detail_graph | safe }}
+            </div>
+        </div>
+
+    {% else %}
+        <h3 class="display-5 pt-2">Set Query</h3>
+        <form class="form-inline" role="form" method="post" id="set_context"
+              action="{% url 'queryIntention:query_intention_demo' %}">
+            {% csrf_token %}
+            <div class="form-group pt-2 col-auto">
+                <label for="id_memberId">ID:</label>
+                <input type="number" class="form-control ml-2" id="id_memberId" placeholder="Member ID"
+                       name="memberId" aria-describedby="memberIdHelpBlock" required autofocus
+                       onkeyup="memberId_delayed_checker(delayTime, memberId_checker_url, loading_src, okay_src, bad_src, want_exist);"
+                       onblur="memberId_checker(memberId_checker_url, loading_src, okay_src, bad_src, want_exist);">
+                <img class="ml-1" src="{% static 'images/check_memberId.png' %}"
+                     style="width:16px;height:18px"
+                     title="check memberId availability" id="id_memberId_checker"/>
+                <small id="memberIdHelpBlock" class="form-text text-muted ml-1">
+                    Correct memberID is required<br/>Or, <a href="{% url 'queryIntention:make_member' %}">create a
+                    member
+                    profile</a>
+                </small>
+            </div>
+            <div class="form-group pt-2 col-auto">
+                <label for="id_raw_query">Query:</label>
+                <input type="text" class="form-control ml-2" id="id_raw_query" placeholder="Raw Query"
+                       name="raw_query" required/>
+            </div>
+            {#            <div class="form-group pt-2 col-auto">#}
+            {#                {{ form.os }}#}
+            {#            </div>#}
+            {#            <div class="form-group pt-2 col-auto">#}
+            {#                {{ form.channel }}#}
+            {#            </div>#}
+            {#            <div class="form-group pt-2 col-auto">#}
+            {#                {{ form.language }}#}
+            {#            </div>#}
+            {#            <div class="form-group pt-2 col-auto">#}
+            {#                {{ form.country }}#}
+            {#            </div>#}
+            <div class="form-group pt-2 col-auto">
+                {{ form.origin }}
+            </div>
+            <div class="form-group pt-2 col-auto">
+                <button type="submit" class="btn btn-primary" id="id_submit_button" disabled>Submit</button>
+            </div>
+        </form>
+    {% endif %}
+{% endblock %}
